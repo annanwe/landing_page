@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+/* color scheme codes
+bg navy #1f256b  
+complimenting orange #eb7949
+idk #4c57cf reg bluue
+idk #373f9e random color
+possiblefont color #5eabe6
+#b34b20 border orange, #9cd4ff borderblue
+*/
+body {
+  margin: 0;
+  font-family: Garamond;
+  color: #5eabe6;
+  background-color: #1f256b;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12px;
+}
+button {
+  background-color: #eb7949;
+  height: 75px;
+  width: 250px;
+  box-shadow: 7px 7px 7px 2px #1b1f4f;
+  border: 3px solid #5eabe6;
+}
+a {
+  font-size: 2rem;
+  font-family: Garamond;
+  text-decoration: none;
+  color: #283085;
+  text-shadow: 2px 2px 3.5px #5eabe6;
+}
+a:hover {
+  font-weight: bold;
+}
+.citygif {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  margin-top: -30px;
+  font-style: italic;
+  color: #9cd4ff;
+}
+p {
+  margin: 20px;
+  font-size: 1.1rem;
+}
+
+span {
+  color: #eb7949;
+}
+
+.hotch,
+.morgan,
+.reid,
+.rossi {
+  border: 3px solid #b34b20;
+}
+
+.prentiss,
+.garcia,
+.jj {
+  border: 3px solid #9cd4ff;
+}
+
+h2,
+.wiki {
+  color: #eb7949;
+  text-shadow: none;
+}
+
+label {
+  font-size: 1.15rem;
+  color: #9cd4ff;
+}
+
+label:hover {
+  font-weight: bold;
+}
+
+.home::first-line {
+  color: #eb7949;
+  font-size: 1.15rem;
+}
+
+div {
+  width: 25%;
+  height: 100px;
+  background: #9cd4ff;
+}
+div:hover {
+  width: 100%;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+#div2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(navy, lightblue, navy);
+  transform: rotate(25deg);
+}
+
+#div3 {
+  width: 200px;
+  height: 200px;
+  background: red;
+  opacity: 30%;
+  border: 5px solid #eb7949;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: inside;
+}
+
+li {
+  font-size: 1.1rem;
+}
